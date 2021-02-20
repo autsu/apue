@@ -1,0 +1,3 @@
+/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir
