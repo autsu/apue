@@ -278,6 +278,33 @@ cp3/dup.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp3/dup.c.s
 .PHONY : cp3/dup.c.s
 
+cp3/fcntl.o: cp3/fcntl.c.o
+
+.PHONY : cp3/fcntl.o
+
+# target to build an object file
+cp3/fcntl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp3/fcntl.c.o
+.PHONY : cp3/fcntl.c.o
+
+cp3/fcntl.i: cp3/fcntl.c.i
+
+.PHONY : cp3/fcntl.i
+
+# target to preprocess a source file
+cp3/fcntl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp3/fcntl.c.i
+.PHONY : cp3/fcntl.c.i
+
+cp3/fcntl.s: cp3/fcntl.c.s
+
+.PHONY : cp3/fcntl.s
+
+# target to generate assembly for a file
+cp3/fcntl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp3/fcntl.c.s
+.PHONY : cp3/fcntl.c.s
+
 cp3/lseek.o: cp3/lseek.c.o
 
 .PHONY : cp3/lseek.o
@@ -410,6 +437,9 @@ help:
 	@echo "... cp3/dup.o"
 	@echo "... cp3/dup.i"
 	@echo "... cp3/dup.s"
+	@echo "... cp3/fcntl.o"
+	@echo "... cp3/fcntl.i"
+	@echo "... cp3/fcntl.s"
 	@echo "... cp3/lseek.o"
 	@echo "... cp3/lseek.i"
 	@echo "... cp3/lseek.s"

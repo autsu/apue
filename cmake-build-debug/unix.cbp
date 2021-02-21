@@ -95,6 +95,9 @@
 		<Unit filename="/Users/zz/CLionProjects/apue/cp3/dup.c">
 			<Option target="unix"/>
 		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp3/fcntl.c">
+			<Option target="unix"/>
+		</Unit>
 		<Unit filename="/Users/zz/CLionProjects/apue/cp3/lseek.c">
 			<Option target="unix"/>
 		</Unit>

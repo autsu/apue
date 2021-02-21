@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/unix.dir/cp1/ls.c.o"
   "CMakeFiles/unix.dir/cp1/thread.c.o"
   "CMakeFiles/unix.dir/cp3/dup.c.o"
+  "CMakeFiles/unix.dir/cp3/fcntl.c.o"
   "CMakeFiles/unix.dir/cp3/lseek.c.o"
   "CMakeFiles/unix.dir/cp3/rw.c.o"
   "CMakeFiles/unix.dir/lib/apue.c.o"

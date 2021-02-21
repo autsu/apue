@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/zz/CLionProjects/apue/cp1/ls.c" "/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir/cp1/ls.c.o"
   "/Users/zz/CLionProjects/apue/cp1/thread.c" "/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir/cp1/thread.c.o"
   "/Users/zz/CLionProjects/apue/cp3/dup.c" "/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir/cp3/dup.c.o"
+  "/Users/zz/CLionProjects/apue/cp3/fcntl.c" "/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir/cp3/fcntl.c.o"
   "/Users/zz/CLionProjects/apue/cp3/lseek.c" "/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir/cp3/lseek.c.o"
   "/Users/zz/CLionProjects/apue/cp3/rw.c" "/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir/cp3/rw.c.o"
   "/Users/zz/CLionProjects/apue/lib/apue.c" "/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles/unix.dir/lib/apue.c.o"
