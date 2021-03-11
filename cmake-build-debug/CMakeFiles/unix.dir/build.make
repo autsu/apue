@@ -77,18 +77,18 @@ include CMakeFiles/unix.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/unix.dir/flags.make
 
-CMakeFiles/unix.dir/main.cpp.o: CMakeFiles/unix.dir/flags.make
-CMakeFiles/unix.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unix.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unix.dir/main.cpp.o -c /Users/zz/CLionProjects/apue/main.cpp
+CMakeFiles/unix.dir/main.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/unix.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/main.c.o   -c /Users/zz/CLionProjects/apue/main.c
 
-CMakeFiles/unix.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unix.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zz/CLionProjects/apue/main.cpp > CMakeFiles/unix.dir/main.cpp.i
+CMakeFiles/unix.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/main.c > CMakeFiles/unix.dir/main.c.i
 
-CMakeFiles/unix.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unix.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zz/CLionProjects/apue/main.cpp -o CMakeFiles/unix.dir/main.cpp.s
+CMakeFiles/unix.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/main.c -o CMakeFiles/unix.dir/main.c.s
 
 CMakeFiles/unix.dir/cp1/ls.c.o: CMakeFiles/unix.dir/flags.make
 CMakeFiles/unix.dir/cp1/ls.c.o: ../cp1/ls.c
@@ -207,9 +207,113 @@ CMakeFiles/unix.dir/cp3/fcntl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp3/fcntl.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp3/fcntl.c -o CMakeFiles/unix.dir/cp3/fcntl.c.s
 
+CMakeFiles/unix.dir/cp4/stat.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp4/stat.c.o: ../cp4/stat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/unix.dir/cp4/stat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp4/stat.c.o   -c /Users/zz/CLionProjects/apue/cp4/stat.c
+
+CMakeFiles/unix.dir/cp4/stat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp4/stat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp4/stat.c > CMakeFiles/unix.dir/cp4/stat.c.i
+
+CMakeFiles/unix.dir/cp4/stat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp4/stat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp4/stat.c -o CMakeFiles/unix.dir/cp4/stat.c.s
+
+CMakeFiles/unix.dir/cp5/buf.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp5/buf.c.o: ../cp5/buf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/unix.dir/cp5/buf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp5/buf.c.o   -c /Users/zz/CLionProjects/apue/cp5/buf.c
+
+CMakeFiles/unix.dir/cp5/buf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp5/buf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp5/buf.c > CMakeFiles/unix.dir/cp5/buf.c.i
+
+CMakeFiles/unix.dir/cp5/buf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp5/buf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp5/buf.c -o CMakeFiles/unix.dir/cp5/buf.c.s
+
+CMakeFiles/unix.dir/cp7/atexit.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp7/atexit.c.o: ../cp7/atexit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/unix.dir/cp7/atexit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp7/atexit.c.o   -c /Users/zz/CLionProjects/apue/cp7/atexit.c
+
+CMakeFiles/unix.dir/cp7/atexit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp7/atexit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp7/atexit.c > CMakeFiles/unix.dir/cp7/atexit.c.i
+
+CMakeFiles/unix.dir/cp7/atexit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp7/atexit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp7/atexit.c -o CMakeFiles/unix.dir/cp7/atexit.c.s
+
+CMakeFiles/unix.dir/cp15/pipe.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp15/pipe.c.o: ../cp15/pipe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/unix.dir/cp15/pipe.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp15/pipe.c.o   -c /Users/zz/CLionProjects/apue/cp15/pipe.c
+
+CMakeFiles/unix.dir/cp15/pipe.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp15/pipe.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp15/pipe.c > CMakeFiles/unix.dir/cp15/pipe.c.i
+
+CMakeFiles/unix.dir/cp15/pipe.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp15/pipe.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp15/pipe.c -o CMakeFiles/unix.dir/cp15/pipe.c.s
+
+CMakeFiles/unix.dir/cp8/fork.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp8/fork.c.o: ../cp8/fork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/unix.dir/cp8/fork.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8/fork.c.o   -c /Users/zz/CLionProjects/apue/cp8/fork.c
+
+CMakeFiles/unix.dir/cp8/fork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8/fork.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8/fork.c > CMakeFiles/unix.dir/cp8/fork.c.i
+
+CMakeFiles/unix.dir/cp8/fork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8/fork.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8/fork.c -o CMakeFiles/unix.dir/cp8/fork.c.s
+
+CMakeFiles/unix.dir/cp8/exec.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp8/exec.c.o: ../cp8/exec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/unix.dir/cp8/exec.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8/exec.c.o   -c /Users/zz/CLionProjects/apue/cp8/exec.c
+
+CMakeFiles/unix.dir/cp8/exec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8/exec.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8/exec.c > CMakeFiles/unix.dir/cp8/exec.c.i
+
+CMakeFiles/unix.dir/cp8/exec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8/exec.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8/exec.c -o CMakeFiles/unix.dir/cp8/exec.c.s
+
+CMakeFiles/unix.dir/cp11/pthread.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp11/pthread.c.o: ../cp11/pthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/unix.dir/cp11/pthread.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp11/pthread.c.o   -c /Users/zz/CLionProjects/apue/cp11/pthread.c
+
+CMakeFiles/unix.dir/cp11/pthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp11/pthread.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp11/pthread.c > CMakeFiles/unix.dir/cp11/pthread.c.i
+
+CMakeFiles/unix.dir/cp11/pthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp11/pthread.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp11/pthread.c -o CMakeFiles/unix.dir/cp11/pthread.c.s
+
+CMakeFiles/unix.dir/cp8/exit_stat.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp8/exit_stat.c.o: ../cp8/exit_stat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/unix.dir/cp8/exit_stat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8/exit_stat.c.o   -c /Users/zz/CLionProjects/apue/cp8/exit_stat.c
+
+CMakeFiles/unix.dir/cp8/exit_stat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8/exit_stat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8/exit_stat.c > CMakeFiles/unix.dir/cp8/exit_stat.c.i
+
+CMakeFiles/unix.dir/cp8/exit_stat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8/exit_stat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8/exit_stat.c -o CMakeFiles/unix.dir/cp8/exit_stat.c.s
+
 # Object files for target unix
 unix_OBJECTS = \
-"CMakeFiles/unix.dir/main.cpp.o" \
+"CMakeFiles/unix.dir/main.c.o" \
 "CMakeFiles/unix.dir/cp1/ls.c.o" \
 "CMakeFiles/unix.dir/lib/apue.c.o" \
 "CMakeFiles/unix.dir/cp1/io.c.o" \
@@ -218,12 +322,20 @@ unix_OBJECTS = \
 "CMakeFiles/unix.dir/cp3/lseek.c.o" \
 "CMakeFiles/unix.dir/cp3/rw.c.o" \
 "CMakeFiles/unix.dir/cp3/dup.c.o" \
-"CMakeFiles/unix.dir/cp3/fcntl.c.o"
+"CMakeFiles/unix.dir/cp3/fcntl.c.o" \
+"CMakeFiles/unix.dir/cp4/stat.c.o" \
+"CMakeFiles/unix.dir/cp5/buf.c.o" \
+"CMakeFiles/unix.dir/cp7/atexit.c.o" \
+"CMakeFiles/unix.dir/cp15/pipe.c.o" \
+"CMakeFiles/unix.dir/cp8/fork.c.o" \
+"CMakeFiles/unix.dir/cp8/exec.c.o" \
+"CMakeFiles/unix.dir/cp11/pthread.c.o" \
+"CMakeFiles/unix.dir/cp8/exit_stat.c.o"
 
 # External object files for target unix
 unix_EXTERNAL_OBJECTS =
 
-unix: CMakeFiles/unix.dir/main.cpp.o
+unix: CMakeFiles/unix.dir/main.c.o
 unix: CMakeFiles/unix.dir/cp1/ls.c.o
 unix: CMakeFiles/unix.dir/lib/apue.c.o
 unix: CMakeFiles/unix.dir/cp1/io.c.o
@@ -233,9 +345,17 @@ unix: CMakeFiles/unix.dir/cp3/lseek.c.o
 unix: CMakeFiles/unix.dir/cp3/rw.c.o
 unix: CMakeFiles/unix.dir/cp3/dup.c.o
 unix: CMakeFiles/unix.dir/cp3/fcntl.c.o
+unix: CMakeFiles/unix.dir/cp4/stat.c.o
+unix: CMakeFiles/unix.dir/cp5/buf.c.o
+unix: CMakeFiles/unix.dir/cp7/atexit.c.o
+unix: CMakeFiles/unix.dir/cp15/pipe.c.o
+unix: CMakeFiles/unix.dir/cp8/fork.c.o
+unix: CMakeFiles/unix.dir/cp8/exec.c.o
+unix: CMakeFiles/unix.dir/cp11/pthread.c.o
+unix: CMakeFiles/unix.dir/cp8/exit_stat.c.o
 unix: CMakeFiles/unix.dir/build.make
 unix: CMakeFiles/unix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable unix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable unix"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

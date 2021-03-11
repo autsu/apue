@@ -251,6 +251,60 @@ cp1/thread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp1/thread.c.s
 .PHONY : cp1/thread.c.s
 
+cp11/pthread.o: cp11/pthread.c.o
+
+.PHONY : cp11/pthread.o
+
+# target to build an object file
+cp11/pthread.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp11/pthread.c.o
+.PHONY : cp11/pthread.c.o
+
+cp11/pthread.i: cp11/pthread.c.i
+
+.PHONY : cp11/pthread.i
+
+# target to preprocess a source file
+cp11/pthread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp11/pthread.c.i
+.PHONY : cp11/pthread.c.i
+
+cp11/pthread.s: cp11/pthread.c.s
+
+.PHONY : cp11/pthread.s
+
+# target to generate assembly for a file
+cp11/pthread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp11/pthread.c.s
+.PHONY : cp11/pthread.c.s
+
+cp15/pipe.o: cp15/pipe.c.o
+
+.PHONY : cp15/pipe.o
+
+# target to build an object file
+cp15/pipe.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp15/pipe.c.o
+.PHONY : cp15/pipe.c.o
+
+cp15/pipe.i: cp15/pipe.c.i
+
+.PHONY : cp15/pipe.i
+
+# target to preprocess a source file
+cp15/pipe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp15/pipe.c.i
+.PHONY : cp15/pipe.c.i
+
+cp15/pipe.s: cp15/pipe.c.s
+
+.PHONY : cp15/pipe.s
+
+# target to generate assembly for a file
+cp15/pipe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp15/pipe.c.s
+.PHONY : cp15/pipe.c.s
+
 cp3/dup.o: cp3/dup.c.o
 
 .PHONY : cp3/dup.o
@@ -359,6 +413,168 @@ cp3/rw.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp3/rw.c.s
 .PHONY : cp3/rw.c.s
 
+cp4/stat.o: cp4/stat.c.o
+
+.PHONY : cp4/stat.o
+
+# target to build an object file
+cp4/stat.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp4/stat.c.o
+.PHONY : cp4/stat.c.o
+
+cp4/stat.i: cp4/stat.c.i
+
+.PHONY : cp4/stat.i
+
+# target to preprocess a source file
+cp4/stat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp4/stat.c.i
+.PHONY : cp4/stat.c.i
+
+cp4/stat.s: cp4/stat.c.s
+
+.PHONY : cp4/stat.s
+
+# target to generate assembly for a file
+cp4/stat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp4/stat.c.s
+.PHONY : cp4/stat.c.s
+
+cp5/buf.o: cp5/buf.c.o
+
+.PHONY : cp5/buf.o
+
+# target to build an object file
+cp5/buf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp5/buf.c.o
+.PHONY : cp5/buf.c.o
+
+cp5/buf.i: cp5/buf.c.i
+
+.PHONY : cp5/buf.i
+
+# target to preprocess a source file
+cp5/buf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp5/buf.c.i
+.PHONY : cp5/buf.c.i
+
+cp5/buf.s: cp5/buf.c.s
+
+.PHONY : cp5/buf.s
+
+# target to generate assembly for a file
+cp5/buf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp5/buf.c.s
+.PHONY : cp5/buf.c.s
+
+cp7/atexit.o: cp7/atexit.c.o
+
+.PHONY : cp7/atexit.o
+
+# target to build an object file
+cp7/atexit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp7/atexit.c.o
+.PHONY : cp7/atexit.c.o
+
+cp7/atexit.i: cp7/atexit.c.i
+
+.PHONY : cp7/atexit.i
+
+# target to preprocess a source file
+cp7/atexit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp7/atexit.c.i
+.PHONY : cp7/atexit.c.i
+
+cp7/atexit.s: cp7/atexit.c.s
+
+.PHONY : cp7/atexit.s
+
+# target to generate assembly for a file
+cp7/atexit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp7/atexit.c.s
+.PHONY : cp7/atexit.c.s
+
+cp8/exec.o: cp8/exec.c.o
+
+.PHONY : cp8/exec.o
+
+# target to build an object file
+cp8/exec.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exec.c.o
+.PHONY : cp8/exec.c.o
+
+cp8/exec.i: cp8/exec.c.i
+
+.PHONY : cp8/exec.i
+
+# target to preprocess a source file
+cp8/exec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exec.c.i
+.PHONY : cp8/exec.c.i
+
+cp8/exec.s: cp8/exec.c.s
+
+.PHONY : cp8/exec.s
+
+# target to generate assembly for a file
+cp8/exec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exec.c.s
+.PHONY : cp8/exec.c.s
+
+cp8/exit_stat.o: cp8/exit_stat.c.o
+
+.PHONY : cp8/exit_stat.o
+
+# target to build an object file
+cp8/exit_stat.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exit_stat.c.o
+.PHONY : cp8/exit_stat.c.o
+
+cp8/exit_stat.i: cp8/exit_stat.c.i
+
+.PHONY : cp8/exit_stat.i
+
+# target to preprocess a source file
+cp8/exit_stat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exit_stat.c.i
+.PHONY : cp8/exit_stat.c.i
+
+cp8/exit_stat.s: cp8/exit_stat.c.s
+
+.PHONY : cp8/exit_stat.s
+
+# target to generate assembly for a file
+cp8/exit_stat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exit_stat.c.s
+.PHONY : cp8/exit_stat.c.s
+
+cp8/fork.o: cp8/fork.c.o
+
+.PHONY : cp8/fork.o
+
+# target to build an object file
+cp8/fork.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/fork.c.o
+.PHONY : cp8/fork.c.o
+
+cp8/fork.i: cp8/fork.c.i
+
+.PHONY : cp8/fork.i
+
+# target to preprocess a source file
+cp8/fork.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/fork.c.i
+.PHONY : cp8/fork.c.i
+
+cp8/fork.s: cp8/fork.c.s
+
+.PHONY : cp8/fork.s
+
+# target to generate assembly for a file
+cp8/fork.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/fork.c.s
+.PHONY : cp8/fork.c.s
+
 lib/apue.o: lib/apue.c.o
 
 .PHONY : lib/apue.o
@@ -386,32 +602,32 @@ lib/apue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/lib/apue.c.s
 .PHONY : lib/apue.c.s
 
-main.o: main.cpp.o
+main.o: main.c.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -434,6 +650,12 @@ help:
 	@echo "... cp1/thread.o"
 	@echo "... cp1/thread.i"
 	@echo "... cp1/thread.s"
+	@echo "... cp11/pthread.o"
+	@echo "... cp11/pthread.i"
+	@echo "... cp11/pthread.s"
+	@echo "... cp15/pipe.o"
+	@echo "... cp15/pipe.i"
+	@echo "... cp15/pipe.s"
 	@echo "... cp3/dup.o"
 	@echo "... cp3/dup.i"
 	@echo "... cp3/dup.s"
@@ -446,6 +668,24 @@ help:
 	@echo "... cp3/rw.o"
 	@echo "... cp3/rw.i"
 	@echo "... cp3/rw.s"
+	@echo "... cp4/stat.o"
+	@echo "... cp4/stat.i"
+	@echo "... cp4/stat.s"
+	@echo "... cp5/buf.o"
+	@echo "... cp5/buf.i"
+	@echo "... cp5/buf.s"
+	@echo "... cp7/atexit.o"
+	@echo "... cp7/atexit.i"
+	@echo "... cp7/atexit.s"
+	@echo "... cp8/exec.o"
+	@echo "... cp8/exec.i"
+	@echo "... cp8/exec.s"
+	@echo "... cp8/exit_stat.o"
+	@echo "... cp8/exit_stat.i"
+	@echo "... cp8/exit_stat.s"
+	@echo "... cp8/fork.o"
+	@echo "... cp8/fork.i"
+	@echo "... cp8/fork.s"
 	@echo "... lib/apue.o"
 	@echo "... lib/apue.i"
 	@echo "... lib/apue.s"

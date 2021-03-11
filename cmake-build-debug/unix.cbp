@@ -92,6 +92,12 @@
 		<Unit filename="/Users/zz/CLionProjects/apue/cp1/thread.c">
 			<Option target="unix"/>
 		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp11/pthread.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp15/pipe.c">
+			<Option target="unix"/>
+		</Unit>
 		<Unit filename="/Users/zz/CLionProjects/apue/cp3/dup.c">
 			<Option target="unix"/>
 		</Unit>
@@ -104,13 +110,31 @@
 		<Unit filename="/Users/zz/CLionProjects/apue/cp3/rw.c">
 			<Option target="unix"/>
 		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp4/stat.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp5/buf.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp7/atexit.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp8/exec.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp8/exit_stat.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp8/fork.c">
+			<Option target="unix"/>
+		</Unit>
 		<Unit filename="/Users/zz/CLionProjects/apue/lib/apue.c">
 			<Option target="unix"/>
 		</Unit>
 		<Unit filename="/Users/zz/CLionProjects/apue/lib/apue.h">
 			<Option target="unix"/>
 		</Unit>
-		<Unit filename="/Users/zz/CLionProjects/apue/main.cpp">
+		<Unit filename="/Users/zz/CLionProjects/apue/main.c">
 			<Option target="unix"/>
 		</Unit>
 		<Unit filename="/Users/zz/CLionProjects/apue/CMakeLists.txt">
