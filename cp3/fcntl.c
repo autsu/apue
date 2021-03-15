@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include "../lib/apue.h"
 
-
-// fcntl(fd, cmd)
+// fcntl 可以改变已经打开文件的属性
+// fcntl(fd, cmd, ...)
 void fcntl_cmd_demo() {
     // flag         hex          bin         dec
     // O_RDWR       0x0002       0010        2

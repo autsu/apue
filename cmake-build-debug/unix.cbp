@@ -95,6 +95,15 @@
 		<Unit filename="/Users/zz/CLionProjects/apue/cp11/pthread.c">
 			<Option target="unix"/>
 		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_io.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_std.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp14_advanced_io/select.c">
+			<Option target="unix"/>
+		</Unit>
 		<Unit filename="/Users/zz/CLionProjects/apue/cp15/pipe.c">
 			<Option target="unix"/>
 		</Unit>
@@ -119,13 +128,16 @@
 		<Unit filename="/Users/zz/CLionProjects/apue/cp7/atexit.c">
 			<Option target="unix"/>
 		</Unit>
-		<Unit filename="/Users/zz/CLionProjects/apue/cp8/exec.c">
+		<Unit filename="/Users/zz/CLionProjects/apue/cp8_process_control/exec.c">
 			<Option target="unix"/>
 		</Unit>
-		<Unit filename="/Users/zz/CLionProjects/apue/cp8/exit_stat.c">
+		<Unit filename="/Users/zz/CLionProjects/apue/cp8_process_control/exit_stat.c">
 			<Option target="unix"/>
 		</Unit>
-		<Unit filename="/Users/zz/CLionProjects/apue/cp8/fork.c">
+		<Unit filename="/Users/zz/CLionProjects/apue/cp8_process_control/fork.c">
+			<Option target="unix"/>
+		</Unit>
+		<Unit filename="/Users/zz/CLionProjects/apue/cp8_process_control/orphan_zombie.c">
 			<Option target="unix"/>
 		</Unit>
 		<Unit filename="/Users/zz/CLionProjects/apue/lib/apue.c">

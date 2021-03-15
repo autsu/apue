@@ -259,31 +259,31 @@ CMakeFiles/unix.dir/cp15/pipe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp15/pipe.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp15/pipe.c -o CMakeFiles/unix.dir/cp15/pipe.c.s
 
-CMakeFiles/unix.dir/cp8/fork.c.o: CMakeFiles/unix.dir/flags.make
-CMakeFiles/unix.dir/cp8/fork.c.o: ../cp8/fork.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/unix.dir/cp8/fork.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8/fork.c.o   -c /Users/zz/CLionProjects/apue/cp8/fork.c
+CMakeFiles/unix.dir/cp8_process_control/fork.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp8_process_control/fork.c.o: ../cp8_process_control/fork.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/unix.dir/cp8_process_control/fork.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8_process_control/fork.c.o   -c /Users/zz/CLionProjects/apue/cp8_process_control/fork.c
 
-CMakeFiles/unix.dir/cp8/fork.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8/fork.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8/fork.c > CMakeFiles/unix.dir/cp8/fork.c.i
+CMakeFiles/unix.dir/cp8_process_control/fork.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8_process_control/fork.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8_process_control/fork.c > CMakeFiles/unix.dir/cp8_process_control/fork.c.i
 
-CMakeFiles/unix.dir/cp8/fork.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8/fork.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8/fork.c -o CMakeFiles/unix.dir/cp8/fork.c.s
+CMakeFiles/unix.dir/cp8_process_control/fork.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8_process_control/fork.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8_process_control/fork.c -o CMakeFiles/unix.dir/cp8_process_control/fork.c.s
 
-CMakeFiles/unix.dir/cp8/exec.c.o: CMakeFiles/unix.dir/flags.make
-CMakeFiles/unix.dir/cp8/exec.c.o: ../cp8/exec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/unix.dir/cp8/exec.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8/exec.c.o   -c /Users/zz/CLionProjects/apue/cp8/exec.c
+CMakeFiles/unix.dir/cp8_process_control/exec.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp8_process_control/exec.c.o: ../cp8_process_control/exec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/unix.dir/cp8_process_control/exec.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8_process_control/exec.c.o   -c /Users/zz/CLionProjects/apue/cp8_process_control/exec.c
 
-CMakeFiles/unix.dir/cp8/exec.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8/exec.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8/exec.c > CMakeFiles/unix.dir/cp8/exec.c.i
+CMakeFiles/unix.dir/cp8_process_control/exec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8_process_control/exec.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8_process_control/exec.c > CMakeFiles/unix.dir/cp8_process_control/exec.c.i
 
-CMakeFiles/unix.dir/cp8/exec.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8/exec.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8/exec.c -o CMakeFiles/unix.dir/cp8/exec.c.s
+CMakeFiles/unix.dir/cp8_process_control/exec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8_process_control/exec.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8_process_control/exec.c -o CMakeFiles/unix.dir/cp8_process_control/exec.c.s
 
 CMakeFiles/unix.dir/cp11/pthread.c.o: CMakeFiles/unix.dir/flags.make
 CMakeFiles/unix.dir/cp11/pthread.c.o: ../cp11/pthread.c
@@ -298,18 +298,70 @@ CMakeFiles/unix.dir/cp11/pthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp11/pthread.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp11/pthread.c -o CMakeFiles/unix.dir/cp11/pthread.c.s
 
-CMakeFiles/unix.dir/cp8/exit_stat.c.o: CMakeFiles/unix.dir/flags.make
-CMakeFiles/unix.dir/cp8/exit_stat.c.o: ../cp8/exit_stat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/unix.dir/cp8/exit_stat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8/exit_stat.c.o   -c /Users/zz/CLionProjects/apue/cp8/exit_stat.c
+CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.o: ../cp8_process_control/exit_stat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.o   -c /Users/zz/CLionProjects/apue/cp8_process_control/exit_stat.c
 
-CMakeFiles/unix.dir/cp8/exit_stat.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8/exit_stat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8/exit_stat.c > CMakeFiles/unix.dir/cp8/exit_stat.c.i
+CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8_process_control/exit_stat.c > CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.i
 
-CMakeFiles/unix.dir/cp8/exit_stat.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8/exit_stat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8/exit_stat.c -o CMakeFiles/unix.dir/cp8/exit_stat.c.s
+CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8_process_control/exit_stat.c -o CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.s
+
+CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.o: ../cp8_process_control/orphan_zombie.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.o   -c /Users/zz/CLionProjects/apue/cp8_process_control/orphan_zombie.c
+
+CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp8_process_control/orphan_zombie.c > CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.i
+
+CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp8_process_control/orphan_zombie.c -o CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.s
+
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.o: ../cp14_advanced_io/no_block_io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.o   -c /Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_io.c
+
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_io.c > CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.i
+
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_io.c -o CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.s
+
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.o: ../cp14_advanced_io/no_block_std.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.o   -c /Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_std.c
+
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_std.c > CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.i
+
+CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp14_advanced_io/no_block_std.c -o CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.s
+
+CMakeFiles/unix.dir/cp14_advanced_io/select.c.o: CMakeFiles/unix.dir/flags.make
+CMakeFiles/unix.dir/cp14_advanced_io/select.c.o: ../cp14_advanced_io/select.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/unix.dir/cp14_advanced_io/select.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unix.dir/cp14_advanced_io/select.c.o   -c /Users/zz/CLionProjects/apue/cp14_advanced_io/select.c
+
+CMakeFiles/unix.dir/cp14_advanced_io/select.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unix.dir/cp14_advanced_io/select.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/apue/cp14_advanced_io/select.c > CMakeFiles/unix.dir/cp14_advanced_io/select.c.i
+
+CMakeFiles/unix.dir/cp14_advanced_io/select.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unix.dir/cp14_advanced_io/select.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/apue/cp14_advanced_io/select.c -o CMakeFiles/unix.dir/cp14_advanced_io/select.c.s
 
 # Object files for target unix
 unix_OBJECTS = \
@@ -327,10 +379,14 @@ unix_OBJECTS = \
 "CMakeFiles/unix.dir/cp5/buf.c.o" \
 "CMakeFiles/unix.dir/cp7/atexit.c.o" \
 "CMakeFiles/unix.dir/cp15/pipe.c.o" \
-"CMakeFiles/unix.dir/cp8/fork.c.o" \
-"CMakeFiles/unix.dir/cp8/exec.c.o" \
+"CMakeFiles/unix.dir/cp8_process_control/fork.c.o" \
+"CMakeFiles/unix.dir/cp8_process_control/exec.c.o" \
 "CMakeFiles/unix.dir/cp11/pthread.c.o" \
-"CMakeFiles/unix.dir/cp8/exit_stat.c.o"
+"CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.o" \
+"CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.o" \
+"CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.o" \
+"CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.o" \
+"CMakeFiles/unix.dir/cp14_advanced_io/select.c.o"
 
 # External object files for target unix
 unix_EXTERNAL_OBJECTS =
@@ -349,13 +405,17 @@ unix: CMakeFiles/unix.dir/cp4/stat.c.o
 unix: CMakeFiles/unix.dir/cp5/buf.c.o
 unix: CMakeFiles/unix.dir/cp7/atexit.c.o
 unix: CMakeFiles/unix.dir/cp15/pipe.c.o
-unix: CMakeFiles/unix.dir/cp8/fork.c.o
-unix: CMakeFiles/unix.dir/cp8/exec.c.o
+unix: CMakeFiles/unix.dir/cp8_process_control/fork.c.o
+unix: CMakeFiles/unix.dir/cp8_process_control/exec.c.o
 unix: CMakeFiles/unix.dir/cp11/pthread.c.o
-unix: CMakeFiles/unix.dir/cp8/exit_stat.c.o
+unix: CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.o
+unix: CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.o
+unix: CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.o
+unix: CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.o
+unix: CMakeFiles/unix.dir/cp14_advanced_io/select.c.o
 unix: CMakeFiles/unix.dir/build.make
 unix: CMakeFiles/unix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable unix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zz/CLionProjects/apue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable unix"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

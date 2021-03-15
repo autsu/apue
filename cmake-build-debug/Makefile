@@ -278,6 +278,87 @@ cp11/pthread.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp11/pthread.c.s
 .PHONY : cp11/pthread.c.s
 
+cp14_advanced_io/no_block_io.o: cp14_advanced_io/no_block_io.c.o
+
+.PHONY : cp14_advanced_io/no_block_io.o
+
+# target to build an object file
+cp14_advanced_io/no_block_io.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.o
+.PHONY : cp14_advanced_io/no_block_io.c.o
+
+cp14_advanced_io/no_block_io.i: cp14_advanced_io/no_block_io.c.i
+
+.PHONY : cp14_advanced_io/no_block_io.i
+
+# target to preprocess a source file
+cp14_advanced_io/no_block_io.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.i
+.PHONY : cp14_advanced_io/no_block_io.c.i
+
+cp14_advanced_io/no_block_io.s: cp14_advanced_io/no_block_io.c.s
+
+.PHONY : cp14_advanced_io/no_block_io.s
+
+# target to generate assembly for a file
+cp14_advanced_io/no_block_io.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/no_block_io.c.s
+.PHONY : cp14_advanced_io/no_block_io.c.s
+
+cp14_advanced_io/no_block_std.o: cp14_advanced_io/no_block_std.c.o
+
+.PHONY : cp14_advanced_io/no_block_std.o
+
+# target to build an object file
+cp14_advanced_io/no_block_std.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.o
+.PHONY : cp14_advanced_io/no_block_std.c.o
+
+cp14_advanced_io/no_block_std.i: cp14_advanced_io/no_block_std.c.i
+
+.PHONY : cp14_advanced_io/no_block_std.i
+
+# target to preprocess a source file
+cp14_advanced_io/no_block_std.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.i
+.PHONY : cp14_advanced_io/no_block_std.c.i
+
+cp14_advanced_io/no_block_std.s: cp14_advanced_io/no_block_std.c.s
+
+.PHONY : cp14_advanced_io/no_block_std.s
+
+# target to generate assembly for a file
+cp14_advanced_io/no_block_std.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/no_block_std.c.s
+.PHONY : cp14_advanced_io/no_block_std.c.s
+
+cp14_advanced_io/select.o: cp14_advanced_io/select.c.o
+
+.PHONY : cp14_advanced_io/select.o
+
+# target to build an object file
+cp14_advanced_io/select.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/select.c.o
+.PHONY : cp14_advanced_io/select.c.o
+
+cp14_advanced_io/select.i: cp14_advanced_io/select.c.i
+
+.PHONY : cp14_advanced_io/select.i
+
+# target to preprocess a source file
+cp14_advanced_io/select.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/select.c.i
+.PHONY : cp14_advanced_io/select.c.i
+
+cp14_advanced_io/select.s: cp14_advanced_io/select.c.s
+
+.PHONY : cp14_advanced_io/select.s
+
+# target to generate assembly for a file
+cp14_advanced_io/select.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp14_advanced_io/select.c.s
+.PHONY : cp14_advanced_io/select.c.s
+
 cp15/pipe.o: cp15/pipe.c.o
 
 .PHONY : cp15/pipe.o
@@ -494,86 +575,113 @@ cp7/atexit.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp7/atexit.c.s
 .PHONY : cp7/atexit.c.s
 
-cp8/exec.o: cp8/exec.c.o
+cp8_process_control/exec.o: cp8_process_control/exec.c.o
 
-.PHONY : cp8/exec.o
-
-# target to build an object file
-cp8/exec.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exec.c.o
-.PHONY : cp8/exec.c.o
-
-cp8/exec.i: cp8/exec.c.i
-
-.PHONY : cp8/exec.i
-
-# target to preprocess a source file
-cp8/exec.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exec.c.i
-.PHONY : cp8/exec.c.i
-
-cp8/exec.s: cp8/exec.c.s
-
-.PHONY : cp8/exec.s
-
-# target to generate assembly for a file
-cp8/exec.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exec.c.s
-.PHONY : cp8/exec.c.s
-
-cp8/exit_stat.o: cp8/exit_stat.c.o
-
-.PHONY : cp8/exit_stat.o
+.PHONY : cp8_process_control/exec.o
 
 # target to build an object file
-cp8/exit_stat.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exit_stat.c.o
-.PHONY : cp8/exit_stat.c.o
+cp8_process_control/exec.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/exec.c.o
+.PHONY : cp8_process_control/exec.c.o
 
-cp8/exit_stat.i: cp8/exit_stat.c.i
+cp8_process_control/exec.i: cp8_process_control/exec.c.i
 
-.PHONY : cp8/exit_stat.i
+.PHONY : cp8_process_control/exec.i
 
 # target to preprocess a source file
-cp8/exit_stat.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exit_stat.c.i
-.PHONY : cp8/exit_stat.c.i
+cp8_process_control/exec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/exec.c.i
+.PHONY : cp8_process_control/exec.c.i
 
-cp8/exit_stat.s: cp8/exit_stat.c.s
+cp8_process_control/exec.s: cp8_process_control/exec.c.s
 
-.PHONY : cp8/exit_stat.s
+.PHONY : cp8_process_control/exec.s
 
 # target to generate assembly for a file
-cp8/exit_stat.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/exit_stat.c.s
-.PHONY : cp8/exit_stat.c.s
+cp8_process_control/exec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/exec.c.s
+.PHONY : cp8_process_control/exec.c.s
 
-cp8/fork.o: cp8/fork.c.o
+cp8_process_control/exit_stat.o: cp8_process_control/exit_stat.c.o
 
-.PHONY : cp8/fork.o
+.PHONY : cp8_process_control/exit_stat.o
 
 # target to build an object file
-cp8/fork.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/fork.c.o
-.PHONY : cp8/fork.c.o
+cp8_process_control/exit_stat.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.o
+.PHONY : cp8_process_control/exit_stat.c.o
 
-cp8/fork.i: cp8/fork.c.i
+cp8_process_control/exit_stat.i: cp8_process_control/exit_stat.c.i
 
-.PHONY : cp8/fork.i
+.PHONY : cp8_process_control/exit_stat.i
 
 # target to preprocess a source file
-cp8/fork.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/fork.c.i
-.PHONY : cp8/fork.c.i
+cp8_process_control/exit_stat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.i
+.PHONY : cp8_process_control/exit_stat.c.i
 
-cp8/fork.s: cp8/fork.c.s
+cp8_process_control/exit_stat.s: cp8_process_control/exit_stat.c.s
 
-.PHONY : cp8/fork.s
+.PHONY : cp8_process_control/exit_stat.s
 
 # target to generate assembly for a file
-cp8/fork.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8/fork.c.s
-.PHONY : cp8/fork.c.s
+cp8_process_control/exit_stat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/exit_stat.c.s
+.PHONY : cp8_process_control/exit_stat.c.s
+
+cp8_process_control/fork.o: cp8_process_control/fork.c.o
+
+.PHONY : cp8_process_control/fork.o
+
+# target to build an object file
+cp8_process_control/fork.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/fork.c.o
+.PHONY : cp8_process_control/fork.c.o
+
+cp8_process_control/fork.i: cp8_process_control/fork.c.i
+
+.PHONY : cp8_process_control/fork.i
+
+# target to preprocess a source file
+cp8_process_control/fork.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/fork.c.i
+.PHONY : cp8_process_control/fork.c.i
+
+cp8_process_control/fork.s: cp8_process_control/fork.c.s
+
+.PHONY : cp8_process_control/fork.s
+
+# target to generate assembly for a file
+cp8_process_control/fork.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/fork.c.s
+.PHONY : cp8_process_control/fork.c.s
+
+cp8_process_control/orphan_zombie.o: cp8_process_control/orphan_zombie.c.o
+
+.PHONY : cp8_process_control/orphan_zombie.o
+
+# target to build an object file
+cp8_process_control/orphan_zombie.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.o
+.PHONY : cp8_process_control/orphan_zombie.c.o
+
+cp8_process_control/orphan_zombie.i: cp8_process_control/orphan_zombie.c.i
+
+.PHONY : cp8_process_control/orphan_zombie.i
+
+# target to preprocess a source file
+cp8_process_control/orphan_zombie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.i
+.PHONY : cp8_process_control/orphan_zombie.c.i
+
+cp8_process_control/orphan_zombie.s: cp8_process_control/orphan_zombie.c.s
+
+.PHONY : cp8_process_control/orphan_zombie.s
+
+# target to generate assembly for a file
+cp8_process_control/orphan_zombie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unix.dir/build.make CMakeFiles/unix.dir/cp8_process_control/orphan_zombie.c.s
+.PHONY : cp8_process_control/orphan_zombie.c.s
 
 lib/apue.o: lib/apue.c.o
 
@@ -653,6 +761,15 @@ help:
 	@echo "... cp11/pthread.o"
 	@echo "... cp11/pthread.i"
 	@echo "... cp11/pthread.s"
+	@echo "... cp14_advanced_io/no_block_io.o"
+	@echo "... cp14_advanced_io/no_block_io.i"
+	@echo "... cp14_advanced_io/no_block_io.s"
+	@echo "... cp14_advanced_io/no_block_std.o"
+	@echo "... cp14_advanced_io/no_block_std.i"
+	@echo "... cp14_advanced_io/no_block_std.s"
+	@echo "... cp14_advanced_io/select.o"
+	@echo "... cp14_advanced_io/select.i"
+	@echo "... cp14_advanced_io/select.s"
 	@echo "... cp15/pipe.o"
 	@echo "... cp15/pipe.i"
 	@echo "... cp15/pipe.s"
@@ -677,15 +794,18 @@ help:
 	@echo "... cp7/atexit.o"
 	@echo "... cp7/atexit.i"
 	@echo "... cp7/atexit.s"
-	@echo "... cp8/exec.o"
-	@echo "... cp8/exec.i"
-	@echo "... cp8/exec.s"
-	@echo "... cp8/exit_stat.o"
-	@echo "... cp8/exit_stat.i"
-	@echo "... cp8/exit_stat.s"
-	@echo "... cp8/fork.o"
-	@echo "... cp8/fork.i"
-	@echo "... cp8/fork.s"
+	@echo "... cp8_process_control/exec.o"
+	@echo "... cp8_process_control/exec.i"
+	@echo "... cp8_process_control/exec.s"
+	@echo "... cp8_process_control/exit_stat.o"
+	@echo "... cp8_process_control/exit_stat.i"
+	@echo "... cp8_process_control/exit_stat.s"
+	@echo "... cp8_process_control/fork.o"
+	@echo "... cp8_process_control/fork.i"
+	@echo "... cp8_process_control/fork.s"
+	@echo "... cp8_process_control/orphan_zombie.o"
+	@echo "... cp8_process_control/orphan_zombie.i"
+	@echo "... cp8_process_control/orphan_zombie.s"
 	@echo "... lib/apue.o"
 	@echo "... lib/apue.i"
 	@echo "... lib/apue.s"
