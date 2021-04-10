@@ -44,17 +44,39 @@ void no_block_std() {
     char buf[MAXSIZE];
     int n;
 
-    while ( (n = read(fd, &buf, MAXSIZE)) > 0 ) {
-        if (write(STDOUT_FILENO, &buf, n) != n ) {
+//    while ( (n = read(fd, &buf, MAXSIZE)) > 0 ) {
+//        if (write(STDOUT_FILENO, &buf, n) != n ) {
+//            fprintf(stderr, "write error: \n", errno);
+//        }
+//    }
+
+    while (1) {
+        n = read(fd, &buf, MAXSIZE);
+        printf("buf: %s\n", buf);
+        if (n <= 0) {
+            //printf("n: %d\n", n);
+            printf("stdin no input, block...\n");
+            sleep(1);
+            continue;
+        } else if (n > 0 && write(fd, &buf, n) != n ) {
+            //printf("n: %d\n", n);
             fprintf(stderr, "write error: \n", errno);
+        } else if (n > 0 && write(fd, &buf, n) == n) {
+            //printf("n: %d\n", n);
+            fprintf(stdout, buf, n);
+            break;
         }
     }
 
-    if (n < 0) {
-        fprintf(stderr, "read error: \n", errno);
-    }
+//    if (n < 0) {
+//        fprintf(stderr, "read error: \n", errno);
+//    }
 
     exit(0);
+}
+
+void stdin_to_stdout() {
+
 }
 
 int main() {

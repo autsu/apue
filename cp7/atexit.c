@@ -5,8 +5,9 @@
 #include "../lib/apue.h"
 
 // atexit()
-// 用来设置一个程序正常结束前调用的函数. 当程序通过调用exit()或从main 中返回时,
-// 参数function 所指定的函数会先被调用, 然后才真正由exit()结束程序.
+// 用来设置一个程序正常结束前调用的函数. 当程序通过调用 exit() 或从 main 中返回时,
+// 参数 function 所指定的函数会先被调用, 然后才真正由 exit() 结束程序.
+// exit() 调用这些函数的顺序与它们登记的顺序相反
 
 static void my_exit1(void);
 static void my_exit2(void );

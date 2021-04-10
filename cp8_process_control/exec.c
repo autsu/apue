@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 void exec_t() {
-    execl("/bin/sh", );
+    //execl("/bin/sh", );
 }
 
 int main() {
